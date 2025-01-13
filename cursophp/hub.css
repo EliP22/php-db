@@ -1,0 +1,163 @@
+body{
+   background-color: dimgray;
+}
+footer{
+    background-color: darkkhaki;
+}
+h2{
+    font-family: cursive; 
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.hero{
+    background: url(./img/Pagina/esc1.png) bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    height: 50vh;
+    min-height:600px;
+    color:white;
+}
+.hero2{
+    background: url(./img/Pagina/book.png) bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    height: 50vh;
+    min-height:200px;
+}
+.hero3{
+    background: url(./img/Pagina/pergamino.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    height: 50vh;
+    min-height:200px;
+}
+.hero4{
+    background: url(./img/Pagina/lista-series.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    height: 50vh;
+    min-height:200px;
+}
+.hero-text{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.lista-libros{
+    margin:0;
+    padding:0;
+    list-style:none;
+    
+
+}
+.lista-libros li{
+    margin: 4px 0;
+}
+.lista-libros li a{
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+.lista-libros li a:hover{
+    color: #212529;
+    background-color: #dadada;
+}
+.lista-libros li a img{
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 1;
+}
+.lista-libros li a:hover img{
+    filter:none;
+    margin-right: 1.4rem;
+    opacity:1;
+}
+
+
+
+.lista-mangas{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.lista-mangas li{
+    margin: 4px 0;
+}
+.lista-mangas li a{
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+.lista-mangas li a:hover{
+    color: #212529;
+    background-color: #dadada;
+}
+.lista-mangas li a img{
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 1;
+}
+.lista-mangas li a:hover img{
+    filter:none;
+    margin-right: 1.4rem;
+    opacity:1;
+}
+
+
+
+.lista-series{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.lista-series li{
+    margin: 4px 0;
+}
+.lista-series li a{
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+.lista-series li a:hover{
+    color: #212529;
+    background-color: #dadada;
+}
+.lista-series li a img{
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 1;
+}
+.lista-series li a:hover img{
+    filter:none;
+    margin-right: 1.4rem;
+    opacity:1;
+}
+
+html{
+    scroll-behavior: smooth;
+}
